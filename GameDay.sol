@@ -67,10 +67,12 @@ contract GameDay {
 
         bytes memory startId = abi.encode(msg.sender, _trackId);
         uint index = started[startId];
-        if (index == 0 || checkHash(_input, _trackId, index)) {
+        
+        if (checkHash(_input, _trackId, index)) {
             started[startId]++;     
             emit challengeStep(_trackId, msg.sender, started[startId]);
-        }
+        } else revert("this is not the input we are waiting for");
+
         if (finished(_trackId, startId)) {
             tracks[_trackId].locked = true;
             emit challengeAccomplished(_trackId, msg.sender);

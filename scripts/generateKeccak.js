@@ -3,7 +3,7 @@
     try {
         console.log('generate Keccak')
     
-        const gameDayAddress = '0x0fC5025C764cE34df352757e82f7B5c4Df39A836'
+        const gameDayAddress = '0x0813d4a158d06784FDB48323344896B2B1aa0F85'
         const contractName = 'GameDay'
        
         const inputs = [
