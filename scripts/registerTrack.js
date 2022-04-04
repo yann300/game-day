@@ -3,12 +3,12 @@
     try {
         console.log('add Track')
     
-        const gameDayAddress = '0x0813d4a158d06784FDB48323344896B2B1aa0F85'
+        const gameDayAddress = '0x3fbE213f0B7F1E28331D80d7a41c8A5989325f18'
         const contractName = 'GameDay'
         
         const trackName = 'test'
         const trackDescription = 'desc'
-        const hashes = ["0x25116287a1b258617d968f41e4d3aa85990958d404d4afeef9d2d674aa552d15","0xecd0ff09c6aa000dbb4711bca6e0f66b81e0c2b3e26afd6884ae302ba2432007"]
+        const hashes = ["0x06ebea457e9a17eba031e88145f623494ba189d95c373ded3770d862d164e0d9","0xf854a17fc95bc202cb6e91f5be4f2d48be72889e517965fa696ca804f7017778"]
         const descriptions = ["desc 1", "desc 2"]
         const prizeLocation = "0xd9145CCE52D386f254917e481eB44e9943F39138"
         const prizeCall = "0x25116287a1b258617d968f41e4d3aa85990958d404d4afeef9d2d674aa552d15"

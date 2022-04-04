@@ -3,12 +3,12 @@
     try {
         console.log('generate Keccak')
     
-        const gameDayAddress = '0x0813d4a158d06784FDB48323344896B2B1aa0F85'
+        const gameDayAddress = '0x3fbE213f0B7F1E28331D80d7a41c8A5989325f18'
         const contractName = 'GameDay'
        
         const inputs = [
-            "0x7465737400000000000000000000000000000000000000000000000000000000",
-            "0x746573740000000000000000000000000000000000000000000000000000000a"
+            "0x746573749a",
+            "0x746573748b"
         ]
 
         // Note that the script needs the ABI which is generated from the compilation artifact.
